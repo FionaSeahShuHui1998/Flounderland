@@ -13,6 +13,7 @@ nav ul {
 
 nav li {
   height: 60px;
+  margin-bottom: 5px;
 }
 
 nav li:first-child {
@@ -38,4 +39,13 @@ nav a i {
 nav a:hover,
 nav a:hover i {
   color: #ffd89b;
+}
+
+nav a.active {
+  color: #f9c784;
+  border-bottom: #f9c784 5px solid;
+}
+
+nav a.active i {
+  color: #f9c784;
 }
