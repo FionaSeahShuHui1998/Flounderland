@@ -28,4 +28,8 @@ nav a {
 nav li:first-child {
   margin-right: auto;
   font-size: 25px;
+nav a i {
+  margin-right: 8px;
+  margin-top: 0px;
+  color: #f7efe5;
 }
