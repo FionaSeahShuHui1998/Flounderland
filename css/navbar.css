@@ -34,3 +34,8 @@ nav a i {
   margin-top: 0px;
   color: #f7efe5;
 }
+
+nav a:hover,
+nav a:hover i {
+  color: #ffd89b;
+}
