@@ -13,4 +13,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-image: url("../img/HomeScreen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
