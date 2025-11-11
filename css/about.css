@@ -107,6 +107,10 @@ body {
   cursor: pointer;
 }
 
+.resumeButton i {
+  margin-right: 8px;
+}
+
 .imageModal {
   position: fixed;
   top: 0;
