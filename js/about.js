@@ -13,3 +13,21 @@ pic.addEventListener("mousemove", function (e) {
 pic.addEventListener("mouseleave", function () {
   tooltip.style.opacity = 0;
 });
+
+pic.addEventListener("click", function () {
+  openImageModal("/img/About.JPEG");
+});
+
+// Open modal
+function openImageModal(src) {
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+
+  modalImg.src = src;
+  modal.style.display = "flex";
+}
+
+// Close modal
+function closeImageModal() {
+  document.getElementById("imageModal").style.display = "none";
+}
