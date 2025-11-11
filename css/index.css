@@ -13,6 +13,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #f7efe5;
   background-image: url("../img/HomeScreen.png");
   background-size: cover;
   background-repeat: no-repeat;

@@ -13,4 +13,5 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #f7efe5;
 }
