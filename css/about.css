@@ -77,3 +77,8 @@ body {
   height: 50px;
   border-radius: 10px;
 }
+
+.resumeButton:hover {
+  background-color: #b08968;
+  cursor: pointer;
+}
