@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  text-align: center;
 }
 
 footer {
@@ -62,6 +61,7 @@ footer {
 }
 
 .copyright {
+  text-align: center;
   padding-bottom: 10px;
 }
 
