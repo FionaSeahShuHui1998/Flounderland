@@ -47,6 +47,10 @@ body {
   object-fit: cover;
 }
 
+.profilePic img:hover {
+  border-color: #e67e22;
+  cursor: pointer;
+}
 .name {
   margin-left: 20px;
 }
