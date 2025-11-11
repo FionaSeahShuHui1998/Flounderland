@@ -31,3 +31,11 @@ function openImageModal(src) {
 function closeImageModal() {
   document.getElementById("imageModal").style.display = "none";
 }
+
+// Download resume
+document.getElementById("resumeButton").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "files/Resume_FionaSeahShuHui.pdf";
+  link.download = "Resume_FionaSeahShuHui.pdf";
+  link.click();
+});
