@@ -39,3 +39,25 @@ document.getElementById("resumeButton").addEventListener("click", () => {
   link.download = "Resume_FionaSeahShuHui.pdf";
   link.click();
 });
+
+const items = document.querySelectorAll(".accordion-item");
+
+items.forEach((item) => {
+  const title = item.querySelector(".accordion-title");
+  const content = item.querySelector(".accordion-content");
+
+  title.addEventListener("click", () => {
+    // Close others
+    items.forEach((other) => {
+      if (other !== item) {
+        other.classList.remove("active");
+        const oc = other.querySelector(".accordion-content");
+        if (oc) oc.style.display = "none";
+      }
+    });
+
+    // Toggle this
+    const isActive = item.classList.toggle("active");
+    content.style.display = isActive ? "block" : "none";
+  });
+});
