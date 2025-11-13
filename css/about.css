@@ -28,10 +28,7 @@ body {
 
 .profileIntro {
   display: flex;
-  align-items: center;
   padding: 20px;
-  border-radius: 10px;
-  max-width: 900px;
 }
 
 .profilePic {
@@ -74,6 +71,9 @@ body {
 
 .name {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name h2 {
@@ -92,6 +92,9 @@ body {
 
 .resume {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .resumeButton {
@@ -160,7 +163,14 @@ body {
 }
 
 .accordion-item:hover {
+  background-color: #8a7563;
+}
+
+.accordion-item:hover hr {
+  border: 0;
+  height: 1px;
   background-color: #b08968;
+  opacity: 0.8;
 }
 
 .accordion-item .accordion-title {
