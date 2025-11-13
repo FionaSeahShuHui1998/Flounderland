@@ -31,6 +31,15 @@ body {
   padding: 20px;
 }
 
+.summary p {
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #3c2f2f;
+}
+
 .profilePic {
   position: relative;
   display: inline-block;
