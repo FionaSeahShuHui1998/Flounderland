@@ -245,3 +245,42 @@ hr {
 .contentRow .value {
   color: #3c2f2f;
 }
+
+.education-card {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f3e8dc;
+  border: 1px solid #cbbbaa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.edu-logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #b08968;
+}
+
+.edu-details h3 {
+  font-size: 20px;
+  color: #3c2f2f;
+  margin: 0;
+}
+
+.edu-details p {
+  margin: 3px 0;
+  color: #6b4f3a;
+  font-size: 16px;
+}
+
+.edu-cert-row {
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+  color: #3c2f2f;
+}
