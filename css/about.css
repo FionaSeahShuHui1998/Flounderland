@@ -246,6 +246,68 @@ hr {
   color: #3c2f2f;
 }
 
+.job-card {
+  background: #f3e8dc;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #cbbbaa;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.job-company {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3c2f2f;
+  margin-bottom: 10px;
+}
+
+.job-card hr {
+  border: 0;
+  height: 1px;
+  background-color: #cbbbaa;
+  margin: 10px 0 20px;
+}
+
+.job-position {
+  margin-bottom: 10px;
+}
+
+.position-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3c2f2f;
+  margin: 0;
+}
+
+.job-years {
+  margin: 4px 0 12px;
+  font-size: 16px;
+  color: #6b4f3a;
+}
+
+.job-duties {
+  margin: 0 0 20px 20px;
+}
+
+.job-duties li {
+  margin-bottom: 5px;
+  color: #3c2f2f;
+}
+
+.reason-section h4 {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 8px;
+  color: #3c2f2f;
+}
+
+.reason-text {
+  color: #3c2f2f;
+  margin-left: 0;
+}
+
 .education-card {
   margin-top: 10px;
   display: flex;
