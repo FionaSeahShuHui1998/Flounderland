@@ -78,15 +78,27 @@
               <input type="text" id="name" autofocus name="name" />
               <label for="email">Email:</label><br />
               <input type="email" id="email" name="email" />
-              <div class="contactNumber">
-                <label for="code">Code:</label><br />
-                <input type="text" id="code" name="code" />
-                <label for="contact">Contact Number:</label><br />
-                <input type="text" id="contact" name="contact" />
+              <div class="contactRow">
+                <div class="codeField">
+                  <label for="code">Code:</label>
+                  <select id="code" name="code"></select>
+                </div>
+                <div class="phoneField">
+                  <label for="contact">Contact Number:</label>
+                  <input type="text" id="contact" name="contact" />
+                </div>
               </div>
               <label for="message">Message:</label><br />
-              <input type="text" id="message" name="message" />
-              <button class="submitButton" id="submitButton">Submit</button>
+              <textarea
+                id="message"
+                name="message"
+                rows="10"
+                cols="40"
+                maxlength="5000"
+              ></textarea>
+              <div class="submitContainer">
+                <button class="submitButton" id="submitButton">Submit</button>
+              </div>
             </form>
           </div>
         </div>
@@ -114,6 +126,7 @@
         </p>
       </div>
     </footer>
+    <script src="/js/contact.js"></script>
     <script src="/js/footer.js"></script>
     <script src="/js/navbar.js"></script>
   </body>

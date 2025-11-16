@@ -70,19 +70,34 @@ body {
   color: #3c2f2f;
 }
 
-.mainContent .rightSection form .contactNumber {
-  /* background-color: red; */
+.contactRow {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.contactRow .codeField {
+  flex: 1;
+}
+
+.contactRow .phoneField {
+  flex: 2;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .submitButton {
+  align-items: center;
   background-color: #dab785;
   font: #3c2f2f;
   border: none;
-  width: 150px;
   height: 50px;
   border-radius: 10px;
-  margin-top: 20px;
-  width: 100%;
+  width: 200px;
 }
 
 .submitButton:hover {
