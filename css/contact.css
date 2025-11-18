@@ -54,6 +54,7 @@ body {
 
 .mainContent .rightSection form {
   width: 100%;
+  margin-top: 10px;
 }
 
 .mainContent .rightSection form input {
@@ -64,6 +65,28 @@ body {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+.mainContent .rightSection form select {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.mainContent .rightSection form textarea {
+  padding-top: 10px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+  min-height: 100px;
 }
 
 .mainContent .rightSection form label {
@@ -103,4 +126,15 @@ body {
 .submitButton:hover {
   background-color: #b08968;
   cursor: pointer;
+}
+
+.error {
+  border: 2px solid red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 8px;
 }

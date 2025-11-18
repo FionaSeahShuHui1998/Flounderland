@@ -71,21 +71,25 @@
         </div>
         <hr />
         <div class="rightSection">
-          <h3>Send me a message</h3>
+          <h3>Send Me a Message</h3>
           <div class="form">
-            <form action="">
+            <form action="https://formspree.io/f/xzzobgly" method="POST">
               <label for="name">Name:</label><br />
               <input type="text" id="name" autofocus name="name" />
+              <div id="nameError" class="error-message"></div>
               <label for="email">Email:</label><br />
               <input type="email" id="email" name="email" />
+              <div id="emailError" class="error-message"></div>
               <div class="contactRow">
                 <div class="codeField">
-                  <label for="code">Code:</label>
+                  <label for="code">Country Code:</label>
                   <select id="code" name="code"></select>
+                  <div id="codeError" class="error-message"></div>
                 </div>
                 <div class="phoneField">
                   <label for="contact">Contact Number:</label>
                   <input type="text" id="contact" name="contact" />
+                  <div id="contactError" class="error-message"></div>
                 </div>
               </div>
               <label for="message">Message:</label><br />
@@ -96,6 +100,8 @@
                 cols="40"
                 maxlength="5000"
               ></textarea>
+              <div id="messageError" class="error-message"></div>
+
               <div class="submitContainer">
                 <button class="submitButton" id="submitButton">Submit</button>
               </div>
@@ -126,6 +132,10 @@
         </p>
       </div>
     </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
     <script src="/js/contact.js"></script>
     <script src="/js/footer.js"></script>
     <script src="/js/navbar.js"></script>
