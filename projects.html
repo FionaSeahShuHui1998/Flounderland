@@ -18,7 +18,7 @@
         <li onclick=hideSidebar()><a href="index.html"><i class="fa fa-times fa-xl"></i></a></li>
         <li>
           <a href="index.html"
-            ><i class="fa-solid fa-house"></i></i>Home</a
+            ><i class="fa-solid fa-house"></i>Home</a
           >
         </li>
         <li><a href="about.html"><i class="fa-solid fa-address-card"></i>About</a></li>
@@ -42,6 +42,19 @@
       <div class="header">
         <h1>Projects</h1>
         <hr />
+      </div>
+      <div class="mainContent">
+        <div class="searchBar">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search projects..."
+            onkeyup="filterProjects()"
+          />
+          <button class="serachProject" id="serachProject">
+            <i class="fa-solid fa-search"></i>Search
+          </button>
+        </div>
       </div>
     </body>
     <footer>
