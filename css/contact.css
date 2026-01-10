@@ -50,7 +50,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  word-spacing: 20px;
+  gap: 20px;
 }
 
 .socialLink a {
@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 800px) {
   .socialLink {
-    word-spacing: 5px;
+    gap: 0px;
   }
 }
 
