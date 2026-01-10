@@ -30,6 +30,14 @@ body {
   opacity: 0.8;
 }
 
+.subHeader {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: #3c2f2f;
+}
+
 .mainContent .searchBar {
   display: flex;
   flex-direction: row;
