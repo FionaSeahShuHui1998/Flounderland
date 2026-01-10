@@ -24,6 +24,7 @@ body {
 
 .header hr {
   margin-top: 10px;
+  margin-right: 20px;
   border: 0;
   height: 1px;
   background-color: #b08968;
@@ -87,63 +88,93 @@ body {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
-  margin-top: 10px;
 }
 
-.filter-btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
+.filters .filter-btn {
+  padding: 8px 14px;
   border: none;
   background: #e8d8c0;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 14px;
 }
 
-.filter-btn:hover {
+.filters .filter-btn:hover {
   background: #d3b894;
 }
 
-.filter-btn.active {
+.filters .filter-btn.active {
   background: #b08968;
 }
 
-.project-grid {
+.projectGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
-.project-card {
+.projectGrid .projectCard {
   padding: 20px;
   background: #fff;
   border-radius: 8px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-.project-card:hover {
-  cursor: pointer;
+.projectGrid .projectCard:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
-.project-card img {
+.projectGrid .projectCard img {
   width: 100%;
   border-radius: 8px;
+  object-fit: cover;
+  height: 180px;
 }
 
-.project-card h3 {
+.projectGrid .projectCard h3 {
   margin-top: 10px;
   color: #3c2f2f;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0 6px;
 }
 
-.project-card p {
+.projectGrid .projectCard .projectDescription {
   margin-top: 10px;
   color: #555;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.projectGrid .projectCard .projectTech {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.projectGrid .projectCard .viewProjectButton {
+  margin-top: 32px;
+  padding: 8px 14px;
+  width: 100%;
+  border: none;
+  background-color: #b08968;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: auto;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.projectGrid .projectCard .viewProjectButton:hover {
+  background-color: #9c6f4a;
+  cursor: pointer;
 }
 
 .projectDetails {
@@ -175,39 +206,4 @@ body {
 
 .filter-btn.active {
   background: #b08968;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-.project-card {
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.project-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.project-card img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.project-card h3 {
-  margin-top: 15px;
-  color: #3c2f2f;
-}
-
-.project-card p {
-  margin-top: 10px;
-  color: #555;
-  font-size: 14px;
-  line-height: 1.5;
 }

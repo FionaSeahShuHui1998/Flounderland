@@ -86,38 +86,40 @@
         </div> -->
         <div class="projectDetails">
           <div class="filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="web">
-              Web Development
-            </button>
-            <button class="filter-btn" data-filter="mobile">
+            <button class="filter-btn active" dataFilter="all">All</button>
+            <button class="filter-btn" dataFilter="web">Web Development</button>
+            <button class="filter-btn" dataFilter="mobile">
               Mobile Development
             </button>
-            <button class="filter-btn" data-filter="others">Others</button>
+            <button class="filter-btn" dataFilter="others">Others</button>
           </div>
-          <div class="project-grid">
+          <div class="projectGrid">
             <!-- Card 1 -->
-            <div class="project-card" data-category="web">
+            <div class="projectCard" dataCategory="web">
               <img src="https://placehold.co/600x400" alt="Project Image" />
               <h3>Web Project 1</h3>
-              <p>Description here...</p>
+              <p class="projectDescription">Description here...</p>
+              <p class="projectTech">Tech: HTML, CSS, JavaScript</p>
+              <button class="viewProjectButton">View Project</button>
             </div>
 
             <!-- Card 2 -->
-            <div class="project-card" data-category="mobile">
+            <div class="projectCard" dataCategory="mobile">
               <img src="https://placehold.co/600x400" alt="Project Image" />
               <h3>Mobile Project 1</h3>
-              <p>Description here...</p>
+              <p class="projectDescription">Description here...</p>
+              <p class="projectTech">Tech: XXX</p>
+              <button class="viewProjectButton">View Project</button>
             </div>
 
             <!-- Card 3 -->
-            <div class="project-card" data-category="others">
+            <div class="projectCard" dataCategory="others">
               <img src="https://placehold.co/600x400" alt="Project Image" />
               <h3>Others Project 1</h3>
-              <p>Description here...</p>
+              <p class="projectDescription">Description here...</p>
+              <p class="projectTech">Tech: XXX</p>
+              <button class="viewProjectButton">View Project</button>
             </div>
-
-            <!-- Add more cards below -->
           </div>
         </div>
       </div>
