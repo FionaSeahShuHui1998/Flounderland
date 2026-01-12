@@ -22,6 +22,10 @@ body {
   margin-left: 20px;
 }
 
+.header h1 {
+  color: #6b4f3a;
+}
+
 .header hr {
   margin-top: 10px;
 }
