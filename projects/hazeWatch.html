@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/sideNavBar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/projects/hazeWatch.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9d1e2a684c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Haze Watch</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="../index.html"><i class="fa fa-times fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="../about.html"
+            ><i class="fa-solid fa-address-card"></i>About</a
+          >
+        </li>
+        <li>
+          <a class="active" href="../projects.html"
+            ><i class="fa-solid fa-clipboard"></i>Projects</a
+          >
+        </li>
+        <li>
+          <a href="../contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="../index.html">Flounderland</a></li>
+        <li class="hideOnMobile">
+          <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="../about.html"
+            ><i class="fa-solid fa-address-card"></i>About</a
+          >
+        </li>
+        <li class="hideOnMobile">
+          <a class="active" href="../projects.html"
+            ><i class="fa-solid fa-clipboard"></i>Projects</a
+          >
+        </li>
+        <li class="hideOnMobile">
+          <a href="../contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+        <li class="menuButton" onclick="showSidebar()">
+          <a class="menuIcon" href="#"><i class="fa fa-bars fa-2xl"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mainContent">
+      <div class="header">
+        <div class="headerRow">
+          <h2>
+            <i
+              onclick="window.location.href='../projects.html'"
+              class="fa-solid fa-chevron-left"
+            ></i
+            >Haze Watch
+          </h2>
+          <button
+            class="projectLinkButton"
+            onclick="window.open('https://fionaseahshuhui1998.github.io/HazeWatch/', '_blank')"
+          >
+            <i class="fa fa-external-link-alt"></i>View Project
+          </button>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="content">
+      <aside class="sideNavbar">
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#techStack">Tech Stack</a></li>
+          <li><a href="#challenges">Challenges</a></li>
+          <li><a href="#screenshots">Screen Captures</a></li>
+          <li><a href="#futureEnhancement">Future Enhancements</a></li>
+        </ul>
+      </aside>
+      <main class="contentDetails">
+        <section id="introduction">
+          <p class="title">Introduction</p>
+          <hr class="contentDivider" />
+          <p class="description">
+            HazeWatch is a simple web application that displays real-time PSI
+            (Pollutant Standards Index) readings across Singapore using data
+            from the Data.gov.sg PSI API.
+          </p>
+        </section>
+
+        <section id="techStack">
+          <p class="title">Tech Stack</p>
+          <hr class="contentDivider" />
+          <div class="description">
+            <ul class="techStack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Data.gov.sg PSI API</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="challenges">
+          <p class="title">Challenges Faced</p>
+          <hr class="contentDivider" />
+          <div class="description">
+            <div class="challengesDetails">
+              <div class="challengesDetailsTitle">
+                <p><b>Challenge 1: Data Accuracy & Consistency</b></p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Problem:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Ensuring PSI data across multiple regions and indicators was
+                  accurate and consistently displayed.
+                </p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Solution:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Validated API responses and mapped each indicator carefully to
+                  ensure correct values were shown for every region.
+                </p>
+              </div>
+            </div>
+            <div class="challengesDetails">
+              <div class="challengesDetailsTitle">
+                <p>
+                  <b>Challenge 2: Presenting data-heavy information clearly </b>
+                </p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Problem:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Displaying multiple PSI metrics without overwhelming users
+                  required careful UI design.
+                </p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Solution:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Organized the data into a structured table layout and adjusted
+                  spacing and labels to improve readability.
+                </p>
+              </div>
+            </div>
+            <div class="challengesDetails">
+              <div class="challengesDetailsTitle">
+                <p>
+                  <b>Challenge 3: Deployment and environment constraints</b>
+                </p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Problem:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Browser security restrictions affected API access when running
+                  the project locally.
+                </p>
+              </div>
+              <div class="challengesSubTitle">
+                <p>Solution:</p>
+              </div>
+              <div class="challengesContent">
+                <p>
+                  Deployed the application using GitHub Pages to ensure
+                  consistent behavior and easier access across environments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="screenshots">
+          <p class="title">Screen Captures</p>
+          <hr class="contentDivider" />
+          <div class="screenCapture">
+            <img src="../img/projects/hazeWatch.png" />
+            <p class="imageCaption">
+              Real-time PSI data displayed in a structured table using
+              Data.gov.sg API
+            </p>
+          </div>
+        </section>
+
+        <section id="futureEnhancement">
+          <p class="title">Future Enhancements</p>
+          <hr class="contentDivider" />
+          <div class="description">
+            <ul class="enhancement">
+              <li>Add charts to visualize PSI trends over time.</li>
+              <li>Implement auto-refresh for real-time data updates.</li>
+              <li>Improve mobile responsiveness and layout.</li>
+              <li>Highlight high-risk regions and PSI alerts.</li>
+              <li>Enhance error handling for API failures.</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <footer>
+    <div class="socialIcon">
+      <a class="emailLink"><i class="fa fa-envelope"></i></a>
+      <a class="instagramLink"><i class="fa fa-instagram"></i></a>
+      <a class="linkedInLink"><i class="fa fa-linkedin"></i></a>
+      <a class="gitHubLink"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="navItems">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © 2025 Flounderland | Designed & Built by
+        <span class="authorName">Fiona Seah Shu Hui</span>
+      </p>
+    </div>
+  </footer>
+  <script src="../js/footer.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/project.js"></script>
+</html>
