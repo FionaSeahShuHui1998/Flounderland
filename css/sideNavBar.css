@@ -1,0 +1,35 @@
+.sideNavbar {
+  width: 220px;
+  background: #e6dcd2;
+  padding: 20px;
+  border-radius: 5%;
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+  margin-left: 20px;
+}
+
+.sideNavbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sideNavbar li {
+  margin-bottom: 10px;
+}
+
+.sideNavbar a {
+  text-decoration: none;
+  color: #6b4f3a;
+  font-size: 15px;
+}
+
+.sideNavbar a.active {
+  font-weight: bold;
+  color: #3c2f2f;
+}
+
+.sideNavbar a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}

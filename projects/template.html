@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/sideNavBar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/projects/template.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9d1e2a684c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Project Template</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="../index.html"><i class="fa fa-times fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="../about.html"
+            ><i class="fa-solid fa-address-card"></i>About</a
+          >
+        </li>
+        <li>
+          <a class="active" href="../projects.html"
+            ><i class="fa-solid fa-clipboard"></i>Projects</a
+          >
+        </li>
+        <li>
+          <a href="../contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="../index.html">Flounderland</a></li>
+        <li class="hideOnMobile">
+          <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="../about.html"
+            ><i class="fa-solid fa-address-card"></i>About</a
+          >
+        </li>
+        <li class="hideOnMobile">
+          <a class="active" href="../projects.html"
+            ><i class="fa-solid fa-clipboard"></i>Projects</a
+          >
+        </li>
+        <li class="hideOnMobile">
+          <a href="../contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+        <li class="menuButton" onclick="showSidebar()">
+          <a class="menuIcon" href="#"><i class="fa fa-bars fa-2xl"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mainContent">
+      <div class="header">
+        <div class="headerRow">
+          <h2>
+            <i
+              onclick="window.location.href='../projects.html'"
+              class="fa-solid fa-chevron-left"
+            ></i
+            >Template
+          </h2>
+          <button class="projectLinkButton" onclick="">
+            <i class="fa fa-external-link-alt"></i>View Project
+          </button>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="content">
+      <aside class="sideNavbar">
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#techStack">Tech Stack</a></li>
+          <li><a href="#challenges">Challenges</a></li>
+          <li><a href="#futureEnhancement">Future Enhancements</a></li>
+          <li><a href="#screenshots">Screen Captures</a></li>
+        </ul>
+      </aside>
+      <main class="contentDetails">
+        <section id="intro">
+          <p class="title">Introduction</p>
+          <hr class="contentDivider" />
+          <p class="description">Your introduction content here...</p>
+        </section>
+
+        <section id="techStack">
+          <p class="title">Tech Stack</p>
+          <hr class="contentDivider" />
+          <p class="description">Your tech stack details...</p>
+        </section>
+
+        <section id="challenges">
+          <p class="title">Challenges Faced</p>
+          <hr class="contentDivider" />
+          <p class="description">Challenges description...</p>
+        </section>
+
+        <section id="futureEnhancement">
+          <p class="title">Future Enhancements</p>
+          <hr class="contentDivider" />
+          <p class="description">Future ideas...</p>
+        </section>
+
+        <section id="screenshots">
+          <p class="title">Screen Captures</p>
+          <hr class="contentDivider" />
+          <p class="description">Screenshots go here...</p>
+        </section>
+      </main>
+    </div>
+  </body>
+  <footer>
+    <div class="socialIcon">
+      <a class="emailLink"><i class="fa fa-envelope"></i></a>
+      <a class="instagramLink"><i class="fa fa-instagram"></i></a>
+      <a class="linkedInLink"><i class="fa fa-linkedin"></i></a>
+      <a class="gitHubLink"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="navItems">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © 2025 Flounderland | Designed & Built by
+        <span class="authorName">Fiona Seah Shu Hui</span>
+      </p>
+    </div>
+  </footer>
+  <script src="../js/footer.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/project.js"></script>
+</html>
