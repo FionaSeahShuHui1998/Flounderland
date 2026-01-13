@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7efe5;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerRow i {
+  color: #6b4f3a;
+  cursor: pointer;
+}
+
+.headerRow i:hover {
+  color: #b08968;
+  cursor: pointer;
+}
+
+.header hr {
+  margin-top: 10px;
+  border: 0;
+  height: 1px;
+  background-color: #b08968;
+  opacity: 0.8;
+  margin-right: 20px;
+}
+
+.header h2 {
+  color: #6b4f3a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header .headerRow .projectLinkButton {
+  margin-right: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3px;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  background-color: #b08968;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header .headerRow .projectLinkButton i {
+  display: block;
+  margin-right: 10px;
+}
+
+.header .headerRow .projectLinkButton:hover {
+  background-color: #9c6f4a;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.contentDetails {
+  background: #e6dcd2;
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
+  border-radius: 1%;
+  margin-bottom: 20px;
+}
+
+.contentDetails .contentDetails section {
+  margin-bottom: 40px;
+}
+
+.contentDetails .title {
+  margin-bottom: 10px;
+  color: #4b3621;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contentDetails .description {
+  margin-bottom: 20px;
+  color: #3a2e24;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.contentDetails .description .challengesDetails .challengesDetailsTitle {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.contentDetails .description .challengesDetails .challengesSubTitle {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.contentDetails .description .techStack {
+  margin-left: 20px;
+}
+
+.contentDetails .description .techStack li {
+  margin-bottom: 10px;
+}
+
+.enhancement {
+  margin-left: 20px;
+}
+
+.enhancement li {
+  margin-bottom: 10px;
+}
+
+.screenCapture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.screenCapture .imageCaption {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #6b4f3a;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.contentDivider {
+  margin-top: 10px;
+  border: 0;
+  height: 1px;
+  background-color: #cbbbaa;
+  opacity: 0.8;
+}
