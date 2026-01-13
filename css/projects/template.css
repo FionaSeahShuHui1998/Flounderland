@@ -28,6 +28,18 @@ body {
   justify-content: space-between;
 }
 
+.header i {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #6b4f3a;
+  cursor: pointer;
+}
+
+.headerRow i:hover {
+  color: #b08968;
+  cursor: pointer;
+}
+
 .header hr {
   margin-top: 10px;
   border: 0;
